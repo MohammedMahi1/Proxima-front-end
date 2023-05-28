@@ -1,0 +1,14 @@
+import React from 'react'
+import NavBar from '../components/NavBar'
+import { Outlet } from 'react-router-dom'
+
+const Layout = () => {
+  return (
+    <div sx={{backgroundColor:"#000"}}>
+      <NavBar/>
+      <Outlet/>
+    </div>
+  )
+}
+
+export default Layout
